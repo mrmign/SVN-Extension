@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Status.swift
 //  SVN-Extension
 //
 //  Created by armingli on 2017/8/7.

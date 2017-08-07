@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48B49C0B1F2EF1FD002D1A32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B49C021F2EEFAC002D1A32 /* main.swift */; };
-		48DBAC3D1F31B244001D98AD /* Commandant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBAC3C1F31B244001D98AD /* Commandant.framework */; };
+		48B88CBA1F38886300B6409C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CB91F38886300B6409C /* main.swift */; };
+		48B88CC91F388C3A00B6409C /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CBD1F388C3A00B6409C /* Argument.swift */; };
+		48B88CCA1F388C3A00B6409C /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CBE1F388C3A00B6409C /* ArgumentParser.swift */; };
+		48B88CCB1F388C3A00B6409C /* ArgumentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CBF1F388C3A00B6409C /* ArgumentProtocol.swift */; };
+		48B88CCC1F388C3A00B6409C /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC01F388C3A00B6409C /* Command.swift */; };
+		48B88CCD1F388C3A00B6409C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC21F388C3A00B6409C /* Errors.swift */; };
+		48B88CCE1F388C3A00B6409C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC31F388C3A00B6409C /* Extensions.swift */; };
+		48B88CCF1F388C3A00B6409C /* HelpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC41F388C3A00B6409C /* HelpCommand.swift */; };
+		48B88CD01F388C3A00B6409C /* LinuxSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC61F388C3A00B6409C /* LinuxSupport.swift */; };
+		48B88CD11F388C3A00B6409C /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC71F388C3A00B6409C /* Option.swift */; };
+		48B88CD21F388C3A00B6409C /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CC81F388C3A00B6409C /* Switch.swift */; };
+		48B88CD81F388C4F00B6409C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CD61F388C4F00B6409C /* Result.swift */; };
+		48B88CD91F388C4F00B6409C /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CD71F388C4F00B6409C /* ResultProtocol.swift */; };
+		48B88CDC1F388CF100B6409C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CDB1F388CF100B6409C /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		48B49C0D1F2EF1FD002D1A32 /* CopyFiles */ = {
+		48B88CB01F38883800B6409C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,17 +36,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		48B49C021F2EEFAC002D1A32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		48B49C111F2EF1FD002D1A32 /* svn-extension */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "svn-extension"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B88CB21F38883800B6409C /* svn-extension */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "svn-extension"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B88CB91F38886300B6409C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		48B88CBD1F388C3A00B6409C /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
+		48B88CBE1F388C3A00B6409C /* ArgumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
+		48B88CBF1F388C3A00B6409C /* ArgumentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentProtocol.swift; sourceTree = "<group>"; };
+		48B88CC01F388C3A00B6409C /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		48B88CC21F388C3A00B6409C /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		48B88CC31F388C3A00B6409C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		48B88CC41F388C3A00B6409C /* HelpCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCommand.swift; sourceTree = "<group>"; };
+		48B88CC61F388C3A00B6409C /* LinuxSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxSupport.swift; sourceTree = "<group>"; };
+		48B88CC71F388C3A00B6409C /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		48B88CC81F388C3A00B6409C /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		48B88CD61F388C4F00B6409C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		48B88CD71F388C4F00B6409C /* ResultProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
+		48B88CDB1F388CF100B6409C /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		48DBAC3C1F31B244001D98AD /* Commandant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commandant.framework; path = "../../../Library/Developer/Xcode/DerivedData/SVN-Extension-awerjecmihzscxgpyzsraxqjgxfs/Build/Products/Debug/Commandant.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48B49C0C1F2EF1FD002D1A32 /* Frameworks */ = {
+		48B88CAF1F38883800B6409C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48DBAC3D1F31B244001D98AD /* Commandant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +68,8 @@
 		48B49BF61F2EEFAC002D1A32 = {
 			isa = PBXGroup;
 			children = (
-				48B49C011F2EEFAC002D1A32 /* SVN-Extension */,
+				48B88CB31F38883800B6409C /* svn-extension */,
+				48B88CBB1F388C1A00B6409C /* Vendors */,
 				48B49C001F2EEFAC002D1A32 /* Products */,
 				48DBAC3B1F31B244001D98AD /* Frameworks */,
 			);
@@ -53,17 +78,63 @@
 		48B49C001F2EEFAC002D1A32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48B49C111F2EF1FD002D1A32 /* svn-extension */,
+				48B88CB21F38883800B6409C /* svn-extension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48B49C011F2EEFAC002D1A32 /* SVN-Extension */ = {
+		48B88CB31F38883800B6409C /* svn-extension */ = {
 			isa = PBXGroup;
 			children = (
-				48B49C021F2EEFAC002D1A32 /* main.swift */,
+				48B88CDA1F388CD700B6409C /* Commands */,
+				48B88CB91F38886300B6409C /* main.swift */,
 			);
-			path = "SVN-Extension";
+			path = "svn-extension";
+			sourceTree = "<group>";
+		};
+		48B88CBB1F388C1A00B6409C /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				48B88CBC1F388C3A00B6409C /* Commandant */,
+				48B88CD31F388C4F00B6409C /* Result */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		48B88CBC1F388C3A00B6409C /* Commandant */ = {
+			isa = PBXGroup;
+			children = (
+				48B88CBD1F388C3A00B6409C /* Argument.swift */,
+				48B88CBE1F388C3A00B6409C /* ArgumentParser.swift */,
+				48B88CBF1F388C3A00B6409C /* ArgumentProtocol.swift */,
+				48B88CC01F388C3A00B6409C /* Command.swift */,
+				48B88CC21F388C3A00B6409C /* Errors.swift */,
+				48B88CC31F388C3A00B6409C /* Extensions.swift */,
+				48B88CC41F388C3A00B6409C /* HelpCommand.swift */,
+				48B88CC61F388C3A00B6409C /* LinuxSupport.swift */,
+				48B88CC71F388C3A00B6409C /* Option.swift */,
+				48B88CC81F388C3A00B6409C /* Switch.swift */,
+			);
+			name = Commandant;
+			path = Carthage/Checkouts/Commandant/Sources/Commandant;
+			sourceTree = SOURCE_ROOT;
+		};
+		48B88CD31F388C4F00B6409C /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				48B88CD61F388C4F00B6409C /* Result.swift */,
+				48B88CD71F388C4F00B6409C /* ResultProtocol.swift */,
+			);
+			name = Result;
+			path = Carthage/Checkouts/Result/Result;
+			sourceTree = SOURCE_ROOT;
+		};
+		48B88CDA1F388CD700B6409C /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				48B88CDB1F388CF100B6409C /* Status.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		48DBAC3B1F31B244001D98AD /* Frameworks */ = {
@@ -77,21 +148,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48B49C091F2EF1FD002D1A32 /* svn-extension */ = {
+		48B88CB11F38883800B6409C /* svn-extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48B49C0E1F2EF1FD002D1A32 /* Build configuration list for PBXNativeTarget "svn-extension" */;
+			buildConfigurationList = 48B88CB61F38883800B6409C /* Build configuration list for PBXNativeTarget "svn-extension" */;
 			buildPhases = (
-				48B49C0A1F2EF1FD002D1A32 /* Sources */,
-				48B49C0C1F2EF1FD002D1A32 /* Frameworks */,
-				48B49C0D1F2EF1FD002D1A32 /* CopyFiles */,
+				48B88CAE1F38883800B6409C /* Sources */,
+				48B88CAF1F38883800B6409C /* Frameworks */,
+				48B88CB01F38883800B6409C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "svn-extension";
-			productName = "SVN-Extension";
-			productReference = 48B49C111F2EF1FD002D1A32 /* svn-extension */;
+			productName = "svn-extension";
+			productReference = 48B88CB21F38883800B6409C /* svn-extension */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,6 +174,12 @@
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = armingli;
+				TargetAttributes = {
+					48B88CB11F38883800B6409C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 48B49BFA1F2EEFAC002D1A32 /* Build configuration list for PBXProject "SVN-Extension" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -116,17 +193,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48B49C091F2EF1FD002D1A32 /* svn-extension */,
+				48B88CB11F38883800B6409C /* svn-extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48B49C0A1F2EF1FD002D1A32 /* Sources */ = {
+		48B88CAE1F38883800B6409C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B49C0B1F2EF1FD002D1A32 /* main.swift in Sources */,
+				48B88CD01F388C3A00B6409C /* LinuxSupport.swift in Sources */,
+				48B88CC91F388C3A00B6409C /* Argument.swift in Sources */,
+				48B88CD11F388C3A00B6409C /* Option.swift in Sources */,
+				48B88CD21F388C3A00B6409C /* Switch.swift in Sources */,
+				48B88CD91F388C4F00B6409C /* ResultProtocol.swift in Sources */,
+				48B88CBA1F38886300B6409C /* main.swift in Sources */,
+				48B88CCB1F388C3A00B6409C /* ArgumentProtocol.swift in Sources */,
+				48B88CD81F388C4F00B6409C /* Result.swift in Sources */,
+				48B88CCC1F388C3A00B6409C /* Command.swift in Sources */,
+				48B88CDC1F388CF100B6409C /* Status.swift in Sources */,
+				48B88CCF1F388C3A00B6409C /* HelpCommand.swift in Sources */,
+				48B88CCD1F388C3A00B6409C /* Errors.swift in Sources */,
+				48B88CCA1F388C3A00B6409C /* ArgumentParser.swift in Sources */,
+				48B88CCE1F388C3A00B6409C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +313,7 @@
 			};
 			name = Release;
 		};
-		48B49C0F1F2EF1FD002D1A32 /* Debug */ = {
+		48B88CB71F38883800B6409C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -231,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		48B49C101F2EF1FD002D1A32 /* Release */ = {
+		48B88CB81F38883800B6409C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -251,14 +341,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48B49C0E1F2EF1FD002D1A32 /* Build configuration list for PBXNativeTarget "svn-extension" */ = {
+		48B88CB61F38883800B6409C /* Build configuration list for PBXNativeTarget "svn-extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48B49C0F1F2EF1FD002D1A32 /* Debug */,
-				48B49C101F2EF1FD002D1A32 /* Release */,
+				48B88CB71F38883800B6409C /* Debug */,
+				48B88CB81F38883800B6409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
