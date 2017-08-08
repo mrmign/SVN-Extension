@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct StatusCommand: CommandProtocol {
+    typealias Options  = NoOptions<SVNError>
+    let verb = "status"
+    let function = "status (stat, st): Print the status of working copy files and directories."
+    func run(_ options: NoOptions<SVNError>) -> Result<(), SVNError> {
+        
+    }
+}

@@ -21,6 +21,7 @@
 		48B88CD81F388C4F00B6409C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CD61F388C4F00B6409C /* Result.swift */; };
 		48B88CD91F388C4F00B6409C /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CD71F388C4F00B6409C /* ResultProtocol.swift */; };
 		48B88CDC1F388CF100B6409C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B88CDB1F388CF100B6409C /* Status.swift */; };
+		CAF9EAF01F3A1A8A00D9FFF9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9EAEF1F3A1A8A00D9FFF9 /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,7 @@
 		48B88CD71F388C4F00B6409C /* ResultProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
 		48B88CDB1F388CF100B6409C /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		48DBAC3C1F31B244001D98AD /* Commandant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commandant.framework; path = "../../../Library/Developer/Xcode/DerivedData/SVN-Extension-awerjecmihzscxgpyzsraxqjgxfs/Build/Products/Debug/Commandant.framework"; sourceTree = "<group>"; };
+		CAF9EAEF1F3A1A8A00D9FFF9 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = "SVN-Extension/Error.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				48B88CDA1F388CD700B6409C /* Commands */,
 				48B88CB91F38886300B6409C /* main.swift */,
+				CAF9EAEF1F3A1A8A00D9FFF9 /* Error.swift */,
 			);
 			path = "svn-extension";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				48B88CCF1F388C3A00B6409C /* HelpCommand.swift in Sources */,
 				48B88CCD1F388C3A00B6409C /* Errors.swift in Sources */,
 				48B88CCA1F388C3A00B6409C /* ArgumentParser.swift in Sources */,
+				CAF9EAF01F3A1A8A00D9FFF9 /* Error.swift in Sources */,
 				48B88CCE1F388C3A00B6409C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +352,7 @@
 				48B88CB81F38883800B6409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
